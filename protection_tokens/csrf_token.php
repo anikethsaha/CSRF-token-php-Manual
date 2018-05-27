@@ -2,7 +2,7 @@
 
 
 // for csrf attack protection I have created this csrf token manually as I am not using any framework 
-// but if using framework I would have used there prebuilt token --  --by Aniketh
+// but if using framework I would have used there prebuilt token 
  session_start();
  session_regenerate_id();
  $options = [
@@ -16,8 +16,8 @@
  $cookie_name = "CSRF_TOKEN_ANIKETH";
  $expire = time() + (86400 * 30);
  $path = "/";
- $domain = "";
- $secure = false;
+ $domain = ""; // your domain name for the cookie validation
+ $secure = true; // for the ssl encrypted cookie
  $httponly = true;
 
  setcookie($cookie_name, $token, $expire, $path, $domain, $secure, $httponly );
