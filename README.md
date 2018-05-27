@@ -1,5 +1,6 @@
 # Manual-csrf_token-php-
 In this project I have shown how the SIMPLE idea behind the protection of CROSS-SITE-REQUEST-FORGERY :skull: attacks is implement using CSRF-TOKEN
+<p align='center'><img src="https://i.imgur.com/3ILSy0I.gif" title="source: imgur.com" /></p>
 
 ## How to start :question:
 Simple :metal: Download the zip or clone this repository then run the `index.php` using your localhost server. The Database creation with the Schema of the table is in the `dbconfig.php` Do read the comment in this files
