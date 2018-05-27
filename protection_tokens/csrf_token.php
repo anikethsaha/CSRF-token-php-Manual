@@ -16,7 +16,9 @@
  $cookie_name = "CSRF_TOKEN_ANIKETH";
  $expire = time() + (86400 * 30);
  $path = "/";
- $domain = ""; // your domain name for the cookie validation
+ $domain = ""; // your domain name for the cookie validation .  
+ // cookies are domain-specific.  
+ //  Your cookies are only readable/usable by the domains you specify. Even in the unusual scenario that sessions are managed in some other way, it will be domain-specific
  $secure = true; // for the ssl encrypted cookie
  $httponly = true;
 
